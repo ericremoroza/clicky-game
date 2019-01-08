@@ -25,6 +25,29 @@ class App extends Component {
     return array;
   };
   
+  selectPokemon = name => {
+    const findMon = this.state.unselectedMon.find(item => item.name === name);
+  
+    if (findMon === undefined) {
+      this.setState({
+        message: "Not very effective",
+        currentScore: 0,
+        pokemon: pokemon,
+        unselectedMon: pokemon
+      });
+    } else {
+      const newMon = this.state.unselectedMon.filter(item => item.name !== name);
+      this.setState({
+        message: "It's super effective!",
+        currentScore: this.state.currentScore + 1,
+        pokemon: pokemon,
+        unselectedMon: newMon
+      });
+    }
+  
+    this.shufflePokemon(pokemon);
+  }
+  
   render() {
     return (
       <Wrapper>
@@ -36,8 +59,10 @@ class App extends Component {
         />
         {this.state.pokemon.map(pokeEntry => (
           <PokeCard
-          name={pokeEntry.name}
-          image={pokeEntry.image}
+            name={pokeEntry.name}
+            image={pokeEntry.image}
+            selectPokemon={this.selectPokemon}
+            currentScore={this.state.currentScore}
           />
         ))}
       </Wrapper>

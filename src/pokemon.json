@@ -1,50 +1,50 @@
 [
     {
         "name": "Bulbasaur",
-        "image": "https://img.pokemondb.net/artwork/large/bulbasaur.jpg"
+        "image": "https://img.pokemondb.net/artwork/vector/large/bulbasaur.png"
     },
     {
         "name": "Charmander",
-        "image": "https://img.pokemondb.net/artwork/large/charmander.jpg"
+        "image": "https://img.pokemondb.net/artwork/vector/large/charmander.png"
     },
     {
         "name": "Squirtle",
-        "image": "https://img.pokemondb.net/artwork/large/squirtle.jpg"
+        "image": "https://img.pokemondb.net/artwork/vector/large/squirtle.png"
     },
     {
         "name": "Caterpie",
-        "image": "https://img.pokemondb.net/artwork/large/caterpie.jpg"
+        "image": "https://img.pokemondb.net/artwork/vector/large/caterpie.png"
     },
     {
         "name": "Pikachu",
-        "image": "https://img.pokemondb.net/artwork/large/pikachu.jpg"
+        "image": "https://img.pokemondb.net/artwork/vector/large/pikachu-alt2.png"
     },
     {
         "name": "Jigglypuff",
-        "image": "https://img.pokemondb.net/artwork/large/jigglypuff.jpg"
+        "image": "https://img.pokemondb.net/artwork/vector/large/jigglypuff.png"
     },
     {
         "name": "Piplup",
-        "image": "https://img.pokemondb.net/artwork/large/piplup.jpg"
+        "image": "https://img.pokemondb.net/artwork/vector/large/piplup.png"
     },
     {
         "name": "Mr. Mime",
-        "image": "https://img.pokemondb.net/artwork/large/mr-mime.jpg"
+        "image": "https://img.pokemondb.net/artwork/vector/large/mr-mime.png"
     },
     {
         "name": "Emolga",
-        "image": "https://img.pokemondb.net/artwork/large/emolga.jpg"
+        "image": "https://img.pokemondb.net/artwork/vector/large/emolga.png"
     },
     {
         "name": "Mewtwo",
-        "image": "https://img.pokemondb.net/artwork/large/mewtwo.jpg"
+        "image": "https://img.pokemondb.net/artwork/vector/large/mewtwo.png"
     },
     {
         "name": "Munchlax",
-        "image": "https://img.pokemondb.net/artwork/large/munchlax.jpg"
+        "image": "https://img.pokemondb.net/artwork/vector/large/munchlax.png"
     },
     {
-        "name": "Stufful",
-        "image": "https://img.pokemondb.net/artwork/large/stufful.jpg"
+        "name": "Meowth",
+        "image": "https://img.pokemondb.net/artwork/vector/large/meowth.png"
     }
 ]

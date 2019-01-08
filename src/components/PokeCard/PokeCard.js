@@ -4,7 +4,9 @@ import "./PokeCard.css";
 const PokeCard = props => (
   <div className="card">
     <div className="img-container">
-      <img alt={props.name} src={props.image} />
+    <span onClick={() => props.selectPokemon(props.name)} className={props.CurrentScore === 0 ? "pokedex-entry" : ""} > 
+      <img className="dexter" alt={props.name} src={props.image} />
+      </span>
     </div>
   </div>
 );
