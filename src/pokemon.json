@@ -1,62 +1,50 @@
 [
     {
-        "id": 1,
-        "image": "https://img.pokemondb.net/artwork/large/bulbasaur.jpg",
-        "clicked": false
+        "name": "Bulbasaur",
+        "image": "https://img.pokemondb.net/artwork/large/bulbasaur.jpg"
     },
     {
-        "id": 2,
-        "image": "https://img.pokemondb.net/artwork/large/charmander.jpg",
-        "clicked": false
+        "name": "Charmander",
+        "image": "https://img.pokemondb.net/artwork/large/charmander.jpg"
     },
     {
-        "id": 3,
-        "image": "https://img.pokemondb.net/artwork/large/squirtle.jpg",
-        "clicked": false
+        "name": "Squirtle",
+        "image": "https://img.pokemondb.net/artwork/large/squirtle.jpg"
     },
     {
-        "id": 4,
-        "image": "https://img.pokemondb.net/artwork/large/caterpie.jpg",
-        "clicked": false
+        "name": "Caterpie",
+        "image": "https://img.pokemondb.net/artwork/large/caterpie.jpg"
     },
     {
-        "id": 5,
-        "image": "https://img.pokemondb.net/artwork/large/pikachu.jpg",
-        "clicked": false
+        "name": "Pikachu",
+        "image": "https://img.pokemondb.net/artwork/large/pikachu.jpg"
     },
     {
-        "id": 6,
-        "image": "https://img.pokemondb.net/artwork/large/jigglypuff.jpg",
-        "clicked": false
+        "name": "Jigglypuff",
+        "image": "https://img.pokemondb.net/artwork/large/jigglypuff.jpg"
     },
     {
-        "id": 7,
-        "image": "https://img.pokemondb.net/artwork/large/piplup.jpg",
-        "clicked": false
+        "name": "Piplup",
+        "image": "https://img.pokemondb.net/artwork/large/piplup.jpg"
     },
     {
-        "id": 8,
-        "image": "https://img.pokemondb.net/artwork/large/mr-mime.jpg",
-        "clicked": false
+        "name": "Mr. Mime",
+        "image": "https://img.pokemondb.net/artwork/large/mr-mime.jpg"
     },
     {
-        "id": 9,
-        "image": "https://img.pokemondb.net/artwork/large/emolga.jpg",
-        "clicked": false
+        "name": "Emolga",
+        "image": "https://img.pokemondb.net/artwork/large/emolga.jpg"
     },
     {
-        "id": 10,
-        "image": "https://img.pokemondb.net/artwork/large/mewtwo.jpg",
-        "clicked": false
+        "name": "Mewtwo",
+        "image": "https://img.pokemondb.net/artwork/large/mewtwo.jpg"
     },
     {
-        "id": 11,
-        "image": "https://img.pokemondb.net/artwork/large/munchlax.jpg",
-        "clicked": false
+        "name": "Munchlax",
+        "image": "https://img.pokemondb.net/artwork/large/munchlax.jpg"
     },
     {
-        "id": 12,
-        "image": "https://img.pokemondb.net/artwork/large/stufful.jpg",
-        "clicked": false
+        "name": "Stufful",
+        "image": "https://img.pokemondb.net/artwork/large/stufful.jpg"
     }
 ]
