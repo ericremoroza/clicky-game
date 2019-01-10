@@ -1,49 +1,61 @@
 [
     {
+        "id": 1,
         "name": "Bulbasaur",
         "image": "https://img.pokemondb.net/artwork/vector/large/bulbasaur.png"
     },
     {
+        "id": 2,
         "name": "Charmander",
         "image": "https://img.pokemondb.net/artwork/vector/large/charmander.png"
     },
     {
+        "id": 3,
         "name": "Squirtle",
         "image": "https://img.pokemondb.net/artwork/vector/large/squirtle.png"
     },
     {
-        "name": "Caterpie",
-        "image": "https://img.pokemondb.net/artwork/vector/large/caterpie.png"
-    },
-    {
+        "id": 4,
         "name": "Pikachu",
         "image": "https://img.pokemondb.net/artwork/vector/large/pikachu-alt2.png"
     },
     {
+        "id": 5,
+       "name": "Furret",
+       "image": "https://img.pokemondb.net/artwork/vector/large/furret.png"
+    },
+    {
+        "id": 6,
         "name": "Jigglypuff",
         "image": "https://img.pokemondb.net/artwork/vector/large/jigglypuff.png"
     },
     {
-        "name": "Piplup",
-        "image": "https://img.pokemondb.net/artwork/vector/large/piplup.png"
+        "id": 7,
+        "name": "Duskull",
+        "image": "https://img.pokemondb.net/artwork/vector/large/duskull.png"
     },
     {
+        "id": 8,
         "name": "Mr. Mime",
         "image": "https://img.pokemondb.net/artwork/vector/large/mr-mime.png"
     },
     {
-        "name": "Emolga",
-        "image": "https://img.pokemondb.net/artwork/vector/large/emolga.png"
+        "id": 9,
+        "name": "Monferno",
+        "image": "https://img.pokemondb.net/artwork/vector/large/monferno.png"
     },
     {
+        "id": 10,
         "name": "Mewtwo",
         "image": "https://img.pokemondb.net/artwork/vector/large/mewtwo.png"
     },
     {
+        "id": 11,
         "name": "Munchlax",
         "image": "https://img.pokemondb.net/artwork/vector/large/munchlax.png"
     },
     {
+        "id": 12,
         "name": "Meowth",
         "image": "https://img.pokemondb.net/artwork/vector/large/meowth.png"
     }

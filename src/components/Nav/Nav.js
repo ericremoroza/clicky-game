@@ -2,16 +2,16 @@ import React from "react";
 import "./Nav.css";
 
 const Nav = props => (
-    <nav className="navBarThingy">
+    <ul className="navBarThingy">
         
-            <p id="linkTitle">
+            <li id="linkTitle">
                 <a href="/">Clicky Game</a>
-            </p>
-            <p id="right-wrong">{props.rightWrong}</p>
-            <p id="scoreTick">Score: {props.currentScore} | Top Score: {props.topScore}</p>
+            </li>
+            <li id="right-wrong">{props.message}</li>
+            <li id="scoreTick">Score: {props.currentScore} | Top Score: {props.topScore}</li>
             
        
-    </nav>
+    </ul>
 )
 
 export default Nav;

@@ -1,6 +1,13 @@
-.titleBox{
+.titleBox {
     text-align: center;
     width: 100%;
+    color: #FFDE00;
+    text-shadow: 
+        -3px -3px 0 #3B4CCA,
+        3px -3px 0 #3B4CCA,
+        -3px 3px 0 #3B4CCA,
+        3px 3px 0 #3B4CCA;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .titleBox h1 {

@@ -25,18 +25,19 @@ class App extends Component {
     return array;
   };
   
-  selectPokemon = name => {
-    const findMon = this.state.unselectedMon.find(item => item.name === name);
-  
+  selectPokemon = id => {
+    
+    const findMon = this.state.unselectedMon.find(item => item.id === id);
     if (findMon === undefined) {
       this.setState({
         message: "Not very effective",
         currentScore: 0,
+        topScore: this.state.currentScore > this.state.topScore ? this.state.currentScore : this.state.topScore,
         pokemon: pokemon,
         unselectedMon: pokemon
       });
     } else {
-      const newMon = this.state.unselectedMon.filter(item => item.name !== name);
+      const newMon = this.state.unselectedMon.filter(item => item.id !== id);
       this.setState({
         message: "It's super effective!",
         currentScore: this.state.currentScore + 1,
@@ -47,7 +48,7 @@ class App extends Component {
   
     this.shufflePokemon(pokemon);
   }
-  
+
   render() {
     return (
       <Wrapper>
@@ -59,6 +60,8 @@ class App extends Component {
         />
         {this.state.pokemon.map(pokeEntry => (
           <PokeCard
+            key={pokeEntry.id}
+            id={pokeEntry.id}
             name={pokeEntry.name}
             image={pokeEntry.image}
             selectPokemon={this.selectPokemon}

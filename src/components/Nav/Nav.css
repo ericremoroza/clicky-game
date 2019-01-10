@@ -10,12 +10,15 @@
     font-weight: bold;
     z-index: 99;
     list-style-type: none;
+    display: inline-block;
 }
 
-p {
-    display: inline;
+
+#right-wrong {
+    text-align: center;
 }
 
-#scoreTick, #right-wrong {
+#scoreTick {
     text-align: right;
+    font-family: 'Times New Roman', Times, serif;
 }
