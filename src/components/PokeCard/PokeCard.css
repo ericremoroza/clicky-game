@@ -13,6 +13,9 @@
     align-content: center;
   }
 
+  .card:hover {
+    background-color: grey;
+  }
   .dexter {
     width: 75%;
     align-content: center;

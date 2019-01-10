@@ -7,7 +7,11 @@
         3px -3px 0 #3B4CCA,
         -3px 3px 0 #3B4CCA,
         3px 3px 0 #3B4CCA;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Pokemon Solid;
+    /* 
+    Font from: 
+    https://fontmeme.com/pokemon-font/ 
+    */
 }
 
 .titleBox h1 {

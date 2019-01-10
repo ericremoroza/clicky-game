@@ -2,16 +2,11 @@ import React from "react";
 import "./Nav.css";
 
 const Nav = props => (
-    <ul className="navBarThingy">
-        
-            <li id="linkTitle">
-                <a href="/">Clicky Game</a>
-            </li>
-            <li id="right-wrong">{props.message}</li>
-            <li id="scoreTick">Score: {props.currentScore} | Top Score: {props.topScore}</li>
-            
-       
-    </ul>
+    <div className=" nav navBarThingy nav-justified">
+        <div className="col-md-4" id="classLink">  <a href="/">Clicky Game</a></div>
+        <div className="col-md-4">{props.message}</div>
+        <div className="col-md-4" id="scoreTick">Score: {props.currentScore} | Top Score: {props.topScore}</div>
+    </div>
 )
 
 export default Nav;
