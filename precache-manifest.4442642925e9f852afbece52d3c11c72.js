@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/clicky-game/static/css/main.da07bd09.chunk.css"
   },
   {
-    "revision": "2d1106b1e591bcbf8d10bcee37d289b2",
+    "revision": "1e554e647b59fd75182d5deaf3d18254",
     "url": "/clicky-game/index.html"
   }
 ];
