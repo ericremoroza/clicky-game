@@ -45,7 +45,7 @@ class App extends Component {
         unselectedMon: newMon
       });
     }
-  
+    
     this.shufflePokemon(pokemon);
   }
 
