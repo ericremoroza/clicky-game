@@ -36,6 +36,7 @@ class App extends Component {
         pokemon: pokemon,
         unselectedMon: pokemon
       });
+      alert("You caught a duplicate Pokémon! Play again?")
     } else {
       const newMon = this.state.unselectedMon.filter(item => item.id !== id);
       this.setState({
@@ -43,10 +44,15 @@ class App extends Component {
         currentScore: this.state.currentScore + 1,
         pokemon: pokemon,
         unselectedMon: newMon
-      });
+      })
     }
+ 
+
     
     this.shufflePokemon(pokemon);
+    if (this.state.currentScore === 12) {
+      alert("Congrats, Pokémon Master!");
+    }
   }
 
   render() {
